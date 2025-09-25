@@ -3,21 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://NishantRajWebDeveloper.github.io/salman-repair-webApp",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint .",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
-    "gh-pages": "^6.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-icon": "^1.0.0",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.9.1",
     "tailwindcss": "^4.1.13"
