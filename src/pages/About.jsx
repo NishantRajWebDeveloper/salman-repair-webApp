@@ -13,7 +13,7 @@ export default function About() {
       {/* Hero */}
       <section className="relative w-full h-[300px]">
         <img
-          src="/src/assets/images/about-banner.jpg"
+          src="/images/about-banner.jpg"
           alt="About Banner"
           className="w-full h-full object-cover"
         />

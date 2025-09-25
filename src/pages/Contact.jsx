@@ -25,7 +25,7 @@ export default function Contact() {
       {/* Hero */}
       <section className="relative w-full h-[300px]">
         <img
-          src="/src/assets/images/contact-banner.jpg"
+          src="/images/contact-banner.jpg"
           alt="Contact Banner"
           className="w-full h-full object-cover"
         />
