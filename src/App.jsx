@@ -2,16 +2,18 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import BottomNav from "./components/BottomNav"; // import BottomNav
+import BottomNav from "./components/BottomNav";
 
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import ScrollToTop from "./components/ScrollToTop"; // import ScrollToTop
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop /> {/* ensures page scrolls to top on route change */}
       <Navbar />
       
       <Routes>
