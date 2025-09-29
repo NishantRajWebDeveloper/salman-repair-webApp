@@ -8,7 +8,7 @@ export default function Navbar() {
         
         {/* Logo */}
         <Link to="/" className="text-2xl font-bold text-blue-600 hover:text-blue-700 transition">
-          RepairMate
+          PrinceXpert
         </Link>
 
         {/* Menu - hidden on small devices */}

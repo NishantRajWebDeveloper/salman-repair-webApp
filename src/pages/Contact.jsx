@@ -123,7 +123,7 @@ console.log("Sending data:", { ...formData, time: now });
             <strong>Phone:</strong> +91 96348 29957
           </p>
           <p className="text-gray-700">
-            <strong>Email:</strong> support@repairmate.com
+            <strong>Email:</strong> support@PrinceXpert.com
           </p>
 
           {/* Map */}

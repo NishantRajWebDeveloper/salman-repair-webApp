@@ -6,7 +6,7 @@ export default function Footer() {
 
                 {/* Company Info */}
                 <div>
-                    <h3 className="text-lg font-semibold text-white mb-3">RepairMate</h3>
+                    <h3 className="text-lg font-semibold text-white mb-3">PrinceXpert</h3>
                     <p>Reliable repair and installation services at your doorstep.</p>
                 </div>
 
@@ -26,12 +26,12 @@ export default function Footer() {
                     <h3 className="text-lg font-semibold text-white mb-3">Contact Us</h3>
                     <p>📍 Janta Rd, Chak Harati, Saharanpur, U.P, India</p>
                     <p>📞 +91 9634829957</p>
-                    <p>📧 support@repairmate.com</p>
+                    <p>📧 support@PrinceXpert.com</p>
                 </div>
             </div>
 
             <div className="text-center text-gray-500 text-sm mt-6">
-                © {new Date().getFullYear()} RepairMate. All rights reserved.
+                © {new Date().getFullYear()} PrinceXpert. All rights reserved.
             </div>
         </footer>
     );
