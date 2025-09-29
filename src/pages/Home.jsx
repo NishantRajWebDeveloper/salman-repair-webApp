@@ -39,7 +39,7 @@ export default function Home() {
     <div className="flex flex-col">
         <section className="relative w-full">
       {/* Hero Image */}
-      <div className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] relative">
+      <div className="w-full h-[400px] md:h-[500px] lg:h-[600px] relative">
         <img
           src={heroBanner}
           alt="Hero Banner"
@@ -73,6 +73,7 @@ export default function Home() {
     { title: "Water Purifier", img: "/icons/water-purifier.webp" },
     { title: "Air Conditioner", img: "/icons/airconditioner.webp" },
     { title: "Fridge", img: "/icons/fridge.webp" },
+    { title: "Washing Machine", img: "/icons/washing-machine.webp" },
   ].map((service, idx) => (
     <div
       key={idx}

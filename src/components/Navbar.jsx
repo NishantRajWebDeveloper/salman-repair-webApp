@@ -1,4 +1,4 @@
-// src/components/Navbar.jsx
+
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
@@ -15,6 +15,7 @@ export default function Navbar() {
         <div className="hidden md:flex space-x-8 font-medium text-gray-700">
           <Link to="/" className="hover:text-blue-600 transition">Home</Link>
           <Link to="/services" className="hover:text-blue-600 transition">Services</Link>
+          <Link to="/reviews" className="hover:text-blue-600 transition">Reviews</Link>
           <Link to="/about" className="hover:text-blue-600 transition">About</Link>
           <Link to="/contact" className="hover:text-blue-600 transition">Contact</Link>
         </div>
@@ -27,10 +28,7 @@ export default function Navbar() {
           Call +91 96348 29957
         </a>
 
-        {/* Hamburger menu for mobile (optional) */}
-        {/* <div className="md:hidden">
-          // You can add mobile menu toggle here if needed
-        </div> */}
+      
       </div>
     </nav>
   );

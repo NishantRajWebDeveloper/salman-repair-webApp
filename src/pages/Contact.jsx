@@ -42,7 +42,7 @@ console.log("Sending data:", { ...formData, time: now });
   return (
     <div className="flex flex-col">
       {/* Hero */}
-      <section className="relative w-full h-[300px] sm:h-[400px] md:h-[500px]">
+      <section className="relative w-full h-[400px] ">
         <img
           src="/images/contact-banner.jpg"
           alt="Contact Banner"

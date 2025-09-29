@@ -3,15 +3,15 @@ import React from "react";
 
 export default function About() {
   const team = [
-    { name: "Salman", role: "Founder & CEO", img: "/team/salman.png" },
-    { name: "Anjali Verma", role: "Head of Operations", img: "/team/anjali.png" },
-    { name: "Nishant Raj", role: "Lead Technician", img: "/team/nishant.png" },
+    { name: "Salman", role: "Founder & CEO", img: "/icons/profile.png" },
+    { name: "Mayank", role: "Head of Operations", img: "/icons/profile.png" },
+    { name: "Nishant Raj", role: "Lead Technician", img: "/icons/profile.png" },
   ];
 
   return (
     <div className="flex flex-col">
       {/* Hero */}
-      <section className="relative w-full h-[300px]">
+      <section className="relative w-full h-[400px]">
         <img
           src="/images/about-banner.jpg"
           alt="About Banner"

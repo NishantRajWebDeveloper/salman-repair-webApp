@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import { FaHome, FaTools, FaEnvelope, FaPhone } from "react-icons/fa";
+import { FaHome, FaTools, FaEnvelope, FaPhone, FaStar } from "react-icons/fa"; // ✅ Added FaStar
 
 export default function BottomNav() {
   const location = useLocation();
@@ -8,6 +8,7 @@ export default function BottomNav() {
   const navItems = [
     { title: "Home", icon: <FaHome />, path: "/" },
     { title: "Services", icon: <FaTools />, path: "/services" },
+    { title: "Reviews", icon: <FaStar />, path: "/reviews" }, // ✅ Review button
     { title: "Contact", icon: <FaEnvelope />, path: "/contact" },
     { title: "Call", icon: <FaPhone />, path: "tel:+919634829957" },
   ];
@@ -30,7 +31,9 @@ export default function BottomNav() {
               key={item.title}
               to={item.path}
               className={`flex flex-col items-center text-sm ${
-                location.pathname === item.path ? "text-blue-600" : "text-gray-600"
+                location.pathname === item.path
+                  ? "text-blue-600"
+                  : "text-gray-600"
               }`}
             >
               <div className="text-xl">{item.icon}</div>

@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 export default function Services() {
   const services = [
-     {
-    title: "Water Purifier",
-    img: "/icons/water-purifier.webp",
-    desc: "Repair, maintenance, and installation of water purifiers.",
-  },
+    {
+      title: "Water Purifier",
+      img: "/icons/water-purifier.webp",
+      desc: "Repair, maintenance, and installation of water purifiers.",
+    },
     {
       title: "Air Conditioner",
       img: "/icons/airconditioner.webp",
@@ -24,6 +24,32 @@ export default function Services() {
       img: "/icons/washing-machine.webp",
       desc: "Repair and maintenance for washing machines.",
     },
+
+    {
+      title: "LED TV",
+      img: "/icons/led-tv.webp",
+      desc: "LED TV repair and servicing at home.",
+    },
+    {
+      title: "Air Purifier",
+      img: "/icons/air-purifier.webp",
+      desc: "Air purifier maintenance and service.",
+    },
+    {
+      title: "Geyser",
+      img: "/icons/geyser.webp",
+      desc: "Geyser repair and installation service.",
+    },
+    {
+      title: "Foot Massager",
+      img: "/icons/foot-massager.jpeg",
+      desc: "Foot massager repair and service at home.",
+    },
+    {
+      title: "Treadmills",
+      img: "/icons/treadmill.png",
+      desc: "Treadmill repair and maintenance.",
+    },
     {
       title: "Microwave",
       img: "/icons/microwave.webp",
@@ -35,24 +61,9 @@ export default function Services() {
       desc: "Chimney cleaning, repair, and installation.",
     },
     {
-      title: "LED TV",
-      img: "/icons/led-tv.webp",
-      desc: "LED TV repair and servicing at home.",
-    },
-    {
       title: "Vacuum Cleaner",
       img: "/icons/vacuum-cleaner.webp",
       desc: "Vacuum cleaner repair and maintenance.",
-    },
-    {
-      title: "Air Purifier",
-      img: "/icons/air-purifier.webp",
-      desc: "Air purifier maintenance and service.",
-    },
-    {
-      title: "Geyser",
-      img: "/icons/geyser.webp",
-      desc: "Geyser repair and installation service.",
     },
   ];
 
@@ -72,27 +83,27 @@ export default function Services() {
       </section>
 
       {/* Services Grid */}
-<section className="py-16 px-6 bg-gray-50">
-  <h2 className="text-3xl font-bold text-center mb-10">Our Services</h2>
-  <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
-    {services.map((service, idx) => (
-      <div
-        key={idx}
-        className="bg-white rounded-xl shadow-md p-6 flex flex-col items-center hover:shadow-xl transform hover:-translate-y-2 transition"
-      >
-        {/* Updated Image Size */}
-        <img
-          src={service.img}
-          alt={service.title}
-          className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 mb-4 object-contain"
-        />
+      <section className="py-16 px-6 bg-gray-50">
+        <h2 className="text-3xl font-bold text-center mb-10">Our Services</h2>
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+          {services.map((service, idx) => (
+            <div
+              key={idx}
+              className="bg-white rounded-xl shadow-md p-6 flex flex-col items-center hover:shadow-xl transform hover:-translate-y-2 transition"
+            >
+              {/* Updated Image Size */}
+              <img
+                src={service.img}
+                alt={service.title}
+                className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 mb-4 object-contain"
+              />
 
-        <h3 className="text-xl font-semibold mb-2 text-center">{service.title}</h3>
-        <p className="text-gray-600 text-center">{service.desc}</p>
-      </div>
-    ))}
-  </div>
-</section>
+              <h3 className="text-xl font-semibold mb-2 text-center">{service.title}</h3>
+              <p className="text-gray-600 text-center">{service.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
 
       {/* Optional CTA */}
